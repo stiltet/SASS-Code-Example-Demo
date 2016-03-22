@@ -1,0 +1,99 @@
+@mixin color($type: text, $color: rgb(0, 0, 0), $alpha: 0) {
+  @if $type == bg {
+    background-color: getColor($color, $alpha);
+  } @else {
+    color: getColor($color, $alpha);
+  }
+}
+
+@mixin background($color: transparent, $alpha: 0, $position: center center, $sizeVar: null, $sizeWidth: auto, $sizeHeight: auto, $repeat: no-repeat, $origin: padding-box, $clip: border-box, $attachment: scroll, $image: null) {
+  @if $color != transparent {
+    @include color($type: bg, $color: $color, $alpha: $alpha)
+  } @else {
+    background-color: $color;
+  }
+  @if $image != null {
+    background-position: $position;
+    @if $sizeVar != null {
+      /* Gecko 1.9.2 (Firefox 3.6) */
+      -moz-background-size: $sizeWidth $sizeHeight;
+      /* Opera 9.5 */
+      -o-background-size: $sizeWidth $sizeHeight;
+      /* Safari 3-4 */
+      -webkit-background-size: $sizeWidth $sizeHeight;
+      background-size: $sizeWidth $sizeHeight;
+    } @else {
+      /* Gecko 1.9.2 (Firefox 3.6) */
+      -moz-background-size: $sizeVar;
+      /* Opera 9.5 */
+      -o-background-size: $sizeVar;
+      /* Safari 3-4 */
+      -webkit-background-size: $sizeVar;
+      background-size: $sizeVar;
+    }
+    background-repeat: $repeat;
+    -webkit-background-origin: $origin;
+    -moz-background-origin: $origin;
+    background-origin: $origin;
+    -moz-background-clip: $clip;
+    -webkit-background-clip: $clip;
+    background-clip: $clip;
+    background-attachment: $attachment;
+    @if $image != true {
+      background-image: url($image); //!important;
+    }
+  }
+}
+
+@mixin backgroundDiagonalGradient($primaryColor: $backgroundPrimaryColor, $secondaryColor: $backgroundSecondaryColor) {
+    background: $primaryColor; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(left top, $primaryColor, $secondaryColor); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(bottom right, $primaryColor, $secondaryColor); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(bottom right, $primaryColor, $secondaryColor); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to bottom right, $primaryColor, $secondaryColor); /* Standard syntax */
+}
+
+@mixin text($type: text, $size: 1em, $align: left, $weight: normal, $style: normal, $decoration: none, $transform: none, $wordBreak: normal, $wordWrap: normal, $lineHeight: normal, $color: null) {
+  @if $color != null {
+    @include color($type: text, $color: $color);
+  }
+  @if $type == text or $type == link {
+    font-family: $defaultFont;
+  } @else if $type == header {
+    font-family: $defaultHeaderFont; 
+  }
+  @if $size != default {
+    font-size: $size;
+  }
+  text-align: $align;
+  font-weight: $weight;
+  font-style: $style;
+  text-decoration: $decoration;
+  text-transform: $transform;
+  word-break: $wordBreak;
+  word-wrap: $wordWrap;
+  line-height: $lineHeight;
+}
+
+@mixin border($position: all, $size: 1px, $type: solid, $color: $borderColor, $alpha: 0) {
+  @if $position == all {
+    border: $size $type getColor($color, $alpha);
+  } @else if $position == top {
+    border-top: $size $type getColor($color, $alpha);
+  } @else if $position == right {
+    border-right: $size $type getColor($color, $alpha);
+  } @else if $position == bottom {
+    border-bottom: $size $type getColor($color, $alpha);
+  } @else if $position == left {
+    border-left: $size $type getColor($color, $alpha);
+  }
+}
+
+@mixin opacity($opacity) {
+    @if $opacity > 1 {
+        $opacity: $opacity / 100;
+    }
+    opacity: $opacity;
+    $opacity-ie: $opacity * 100;
+    filter: alpha(opacity=$opacity-ie); //IE8
+}

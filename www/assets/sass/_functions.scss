@@ -1,0 +1,10 @@
+@function getColor($color: rgb(0, 0, 0), $alpha: 0) {
+  $returnColor: $color;
+  @if $alpha != 0 {
+    @if $alpha > 1 {
+      $alpha: $alpha/100
+    }
+    $returnColor: rgba($color, $alpha); /* Chrome, Firefox 3+, IE 9+, Opera 10.10+, Safari 3+ */
+  }
+  @return $returnColor;
+}

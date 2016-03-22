@@ -1,0 +1,27 @@
+
+/******************************************************************/
+/************************** DEFAULT *******************************/
+/******************************************************************/
+$appVersion: "1.0.0";
+
+/******************************************************************/
+/*************************** COLORS *******************************/
+/******************************************************************/
+
+$defaultTextColor: #000000;
+$defaultLinkColor: $defaultTextColor;
+$defaultLinkHoverColor: #26004A;
+
+$backgroundPrimaryColor: #000000;
+$backgroundSecondaryColor: #26004A;
+$backgroundColorContainer: #ffffff;
+
+/******************************************************************/
+/**************************** FONT ********************************/
+/******************************************************************/
+// Path relevant from www/css folder.
+$fontPath: "../fonts";
+
+
+$defaultFont: "Helvetica World", "Helvetica", "Garamond", "Segoe UI", sans-serif;
+$defaultHeaderFont: "Helvetica World", "Helvetica", "Garamond", "Segoe UI", sans-serif;;

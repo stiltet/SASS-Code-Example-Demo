@@ -1,0 +1,69 @@
+body {
+    @include backgroundDiagonalGradient($backgroundPrimaryColor, $backgroundSecondaryColor);
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: $defaultHeaderFont;
+}
+
+a {
+    color: $defaultLinkColor;
+    &:hover {
+        color: $defaultLinkHoverColor;
+    }
+}
+
+div#container {
+    width: 60%;
+    margin: 0 auto;
+    div {
+        @include text($lineHeight: 1.8em);
+        @include background($color:$backgroundColorContainer);
+        padding: 15px;
+        &.header {
+            margin: 0 0 20px 0;
+            min-height: 150px;
+            img.sassLogo {
+                height: 150px;
+                width: 200px;
+                float:left;
+                margin-right: 15px;
+            }
+            h1 {
+                float:left;
+                padding-top: 70px;
+            }
+            div.headerLinks {
+                float:right;
+            }
+        }
+        &.content {
+            //@include opacity(50);
+        }
+        &.footer {
+            div {
+                display: inline-block;
+                &.author {
+                    
+                }
+                &.socialMedia {
+                    float: right;
+                    a {
+                        height: 64px;
+                        width: 64px;
+                        display: inline-block;
+                        padding: 0;
+                        &.twitter {
+                            @include background($image: "../img/twitter_circle_black-64.png");
+                        }
+                        &.linkedin {
+                            @include background($image: "../img/linkedin_circle_black-64.png");
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
