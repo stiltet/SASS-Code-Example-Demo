@@ -14,7 +14,7 @@
   }
   @if $image != null {
     background-position: $position;
-    @if $sizeVar != null {
+    @if $sizeVar == null {
       /* Gecko 1.9.2 (Firefox 3.6) */
       -moz-background-size: $sizeWidth $sizeHeight;
       /* Opera 9.5 */
