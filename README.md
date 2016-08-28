@@ -7,3 +7,4 @@ This is a project to be used as a live demo of SASS during my presentation of Le
 3. Type "npm install -g gulp" to install GULP globally on your computer.
 4. Type "npm install" and all packages in packages.json will be installed.
 5. Type "gulp" and GULP starts listening to changes in assets/sass folder. 
+6. Restart any applications as well as command prompt in order to use GULP properly.
