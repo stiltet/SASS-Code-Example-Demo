@@ -1,0 +1,6 @@
+{
+  "name": "Sass-code-example-demo",
+  "tagline": "This is a project to be used as a live demo of SASS during my presentation of Less & SASS.",
+  "body": "# SASS-Code-Example-Demo\r\nThis is a project to be used as a live demo of SASS during my presentation of Less &amp; SASS.\r\n\r\n#Setup\r\n1. Download and install NodeJS from https://nodejs.org/en/ (Make sure \"Add to PATH\" is selected in installation).\r\n2. Open up PowerShell or command prompt and go to the root folder of this project (where this readme-file is located).\r\n3. Type \"npm install -g gulp\" to install GULP globally on your computer.\r\n4. Type \"npm install\" and all packages in packages.json will be installed.\r\n5. Type \"gulp\" and GULP starts listening to changes in assets/sass folder. \r\n6. Restart any applications as well as command prompt in order to use GULP properly.",
+  "note": "Don't delete this file! It's used internally to help with page regeneration."
+}
