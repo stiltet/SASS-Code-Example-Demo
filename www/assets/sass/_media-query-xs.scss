@@ -1,0 +1,30 @@
+@media (min-width: $screen-xs) {
+    h1 {
+        letter-spacing: 1px;
+    }
+
+    #container {
+        width: 60%;
+    }
+
+    header {
+        nav {
+            ul {
+                li {
+                    display: inline-block;
+                    &:not(:first-of-type) {
+                        margin-left: 10px;
+                    }
+                }
+            }
+        }
+    }
+
+    footer {
+        section {
+            &.copyright {
+                font-size: 10pt;
+            }
+        }
+    }
+}

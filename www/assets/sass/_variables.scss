@@ -2,6 +2,7 @@
 /******************************************************************/
 /************************** DEFAULT *******************************/
 /******************************************************************/
+
 $appVersion: "1.0.0";
 
 /******************************************************************/
@@ -10,17 +11,15 @@ $appVersion: "1.0.0";
 
 $defaultTextColor: #000000;
 $defaultLinkColor: $defaultTextColor;
-$defaultLinkHoverColor: #26004A;
+$defaultLinkHoverColor: #cc6699;
 
-$backgroundPrimaryColor: #000000;
-$backgroundSecondaryColor: #26004A;
-$backgroundColorContainer: #eeeeee;
+$backgroundPrimaryColor: #cc6699;
+$backgroundSecondaryColor: #ffffff;
+$backgroundColorContainer: transparent;
 
 /******************************************************************/
 /**************************** FONT ********************************/
 /******************************************************************/
-// Path relevant from www/css folder.
-//$fontPath: "../fonts";
 
 
 $defaultFont: "Helvetica World", "Helvetica", "Garamond", "Segoe UI", sans-serif;
@@ -35,7 +34,7 @@ $screen-xs: 480px;
 $screen-phone: $screen-xs;
 
 // Small screen / tablet
-$screen-sm: 768px;
+$screen-sm: 722px;
 $screen-tablet: $screen-sm;
 
 // Medium screen / tablet or small desktop
@@ -53,4 +52,6 @@ $screen-xl-desktop: $screen-xl;
 
 
 ///////////////
-$socialMediaSize: 64px;
+$socialMediaSizeDefault: 20px;
+$socialMediaSizeSmall: 30px;
+$socialMediaSizeLarge: 46px;

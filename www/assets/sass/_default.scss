@@ -1,5 +1,5 @@
 body {
-    @include backgroundDiagonalGradient($backgroundPrimaryColor, $backgroundSecondaryColor);
+    @include backgroundDiagonalGradient($backgroundSecondaryColor, $backgroundPrimaryColor);
     margin: 0;
     padding: 0;
 }
@@ -8,62 +8,102 @@ h1, h2, h3, h4, h5, h6 {
     font-family: $defaultHeaderFont;
 }
 
+h1 {
+    font-size: 1.6em;
+    padding-left: 15px;
+}
+
 a {
     color: $defaultLinkColor;
+    text-align: center;
+    transition: 2s;
     &:hover {
         color: $defaultLinkHoverColor;
     }
 }
 
-div#container {
-    width: 60%;
+#container {
+    width: 90%;
+    min-width: 230px;
     margin: 0 auto;
-    div {
-        @include text($lineHeight: 1.8em);
-        @include background($color:$backgroundColorContainer);
+    @include background($color:$backgroundColorContainer, $alpha: 50);
+}
+
+header {
+    min-height:180px;
+    @include text();
+    margin: 0;
+    border-bottom: 3px groove black;
+    padding-bottom: 10px;
+    img.sassLogo {
+        height: 150px;
+        width: 200px;
+        float:left;
         padding: 15px;
-        &.header {
-            margin: 0 0 20px 0;
-            min-height: 150px;
-            img.sassLogo {
-                height: 150px;
-                width: 200px;
-                float:left;
-                margin-right: 15px;
-            }
-            h1 {
-                float:left;
-                padding-top: 70px;
-            }
-            div.headerLinks {
-                float:right;
+    }
+    nav {
+        padding-left: 15px;
+    }
+    nav {
+        ul {
+            padding: 0;
+            margin: 0;
+            overflow: hidden;
+            li {
+                list-style: none;
             }
         }
-        &.content {
-            //@include opacity(50);
-        }
-        &.footer {
-            div {
+    }
+}
+main {
+    @include text($lineHeight: 1.5em);
+    @include opacity(80);
+    border-bottom: 3px groove black;
+    padding: 10px 15px;
+    p:first-of-type {
+        margin-top: 0;
+    }
+    p:last-of-type {
+        margin-bottom: 0;
+    }
+}
+footer {
+    $socialMediaSize: $socialMediaSizeDefault;
+    padding: 15px 15px $socialMediaSize + 10px 15px;
+    section {
+        //display: block;
+        &.socialMedia {
+            float: left;
+            a {
+                height: $socialMediaSize;
+                width: $socialMediaSize;
                 display: inline-block;
-                &.author {
-                    
+                padding: 0;
+                &.twitter {
+                    background-image: url("../img/twitter_circle_black-64.png");
+                    background-size: $socialMediaSize $socialMediaSize;
+                    //@include background($sizeWidth: $socialMediaSize, $sizeHeight: $socialMediaSize, $image: "../img/twitter_circle_black-64.png");
+                    &:hover {
+                        background-image: url("../img/twitter_circle_black-64_white.png");
+                    }
                 }
-                &.socialMedia {
-                    float: right;
-                    a {
-                        height: 64px;
-                        width: 64px;
-                        display: inline-block;
-                        padding: 0;
-                        &.twitter {
-                            @include background($image: "../img/twitter_circle_black-64.png");
-                        }
-                        &.linkedin {
-                            @include background($image: "../img/linkedin_circle_black-64.png");
-                        }
+                &.linkedin {
+                    background-image: url("../img/linkedin_circle_black-64.png");
+                    background-size: $socialMediaSize $socialMediaSize;
+                    //@include background($sizeWidth: $socialMediaSize, $sizeHeight: $socialMediaSize, $image: "../img/linkedin_circle_black-64.png");
+                    &:hover {
+                        background-image: url("../img/linkedin_circle_black-64_white.png");
                     }
                 }
             }
+        }
+        &.copyright {
+            font-size: 8pt;
+            float: right;
+            line-height: $socialMediaSize;
+            a:hover {
+                color: $backgroundSecondaryColor;
+            } 
         }
     }
 }

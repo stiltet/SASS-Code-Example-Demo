@@ -4,7 +4,8 @@
 
 //Starts with small screens and goes bigger
 @import "default";
-@import "media-query-sm.scss";
-@import "media-query-md.scss";
-@import "media-query-lg.scss";
-@import "media-query-xl.scss";
+@import "media-query-xs";
+@import "media-query-sm";
+@import "media-query-md";
+@import "media-query-lg";
+@import "media-query-xl"; 
