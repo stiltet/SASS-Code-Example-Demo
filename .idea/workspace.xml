@@ -44,9 +44,9 @@
         <entry file="file://$PROJECT_DIR$/dist/SassExample/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="528">
-              <caret line="24" column="10" lean-forward="false" selection-start-line="24" selection-start-column="10" selection-end-line="24" selection-end-column="10" />
+              <caret line="24" column="10" lean-forward="true" selection-start-line="24" selection-start-column="10" selection-end-line="28" selection-end-column="0" />
               <folding>
-                <element signature="e#7560#7566#0" expanded="true" />
+                <element signature="e#7605#7611#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -466,7 +466,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8586000" />
+    <option name="totallyTimeSpent" value="9391000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="2578" height="1357" extended-state="6" />
@@ -685,9 +685,9 @@
     <entry file="file://$PROJECT_DIR$/dist/SassExample/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="528">
-          <caret line="24" column="10" lean-forward="false" selection-start-line="24" selection-start-column="10" selection-end-line="24" selection-end-column="10" />
+          <caret line="24" column="10" lean-forward="true" selection-start-line="24" selection-start-column="10" selection-end-line="28" selection-end-column="0" />
           <folding>
-            <element signature="e#7560#7566#0" expanded="true" />
+            <element signature="e#7605#7611#0" expanded="true" />
           </folding>
         </state>
       </provider>
