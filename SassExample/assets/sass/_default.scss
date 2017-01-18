@@ -1,45 +1,45 @@
 body {
-    background: linear-gradient(to bottom right, $backgroundSecondaryColor, $backgroundPrimaryColor);
-    margin: 0;
-    padding: 0;
+  background: linear-gradient(to bottom right, $backgroundSecondaryColor, $backgroundPrimaryColor);
+  margin: 0;
+  padding: 0;
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: $defaultHeaderFont;
+  font-family: $defaultHeaderFont;
 }
 h1 {
-    font-size: 2.5em;
-    letter-spacing: 3.5px;
+  font-size: 2.5em;
+  letter-spacing: 3.5px;
 }
 h2 {
-    font-size: 1.5em;
+  font-size: 1.5em;
 }
 
 a {
-    color: $defaultLinkColor;
-    text-align: center;
-    transition: 0.3s;
-    &:hover {
-        color: $defaultLinkHoverColor;
-    }
+  color: $defaultLinkColor;
+  text-align: center;
+  transition: 0.3s;
+  &:hover {
+    color: $defaultLinkHoverColor;
+  }
 }
 
 #container {
-    width: 90%;
-    @include color($type: bg, $color:$backgroundColorContainer, $alpha: 50);
-    margin: 0 auto;
+  width: 90%;
+  @include color($type: bg, $color:$backgroundColorContainer, $alpha: 50);
+  margin: 0 auto;
 }
 
 header {
-    min-height:180px;
-    margin: 0;
-    @include border($position: bottom, $size: 3px, $type: groove, $color: $borderColor);
-    padding-bottom: 10px;
-    #headerContainer {
-        width: 335px;
-        text-align: center;
-        margin: 0 auto;
-    }
+  min-height:180px;
+  margin: 0;
+  @include border($position: bottom, $size: 3px, $type: groove, $color: $borderColor);
+  padding-bottom: 10px;
+  #headerContainer {
+    width: 335px;
+    text-align: center;
+    margin: 0 auto;
+  }
     h1 {
         text-align: left;
         padding-left: 15px;
