@@ -1,0 +1,4 @@
+window.addEventListener('onload') = (function () {
+
+});
+//# sourceMappingURL=data:application/json;charset=utf8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImFwcC5qcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtBQUNBO0FBQ0EiLCJmaWxlIjoiYXBwLmpzIiwic291cmNlc0NvbnRlbnQiOlsid2luZG93LmFkZEV2ZW50TGlzdGVuZXIoJ29ubG9hZCcpID0gKGZ1bmN0aW9uICgpIHtcclxuXHJcbn0pOyJdfQ==
