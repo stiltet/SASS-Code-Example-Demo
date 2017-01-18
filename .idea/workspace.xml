@@ -3,13 +3,18 @@
   <component name="ChangeListManager">
     <list default="true" id="f6178486-6cd9-4445-accc-2316f038d2c1" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SassExample/assets/js/app.js" afterPath="$PROJECT_DIR$/SassExample/assets/js/app.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SassExample/assets/sass/_default.scss" afterPath="$PROJECT_DIR$/SassExample/assets/sass/_default.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SassExample/assets/sass/_functions.scss" afterPath="$PROJECT_DIR$/SassExample/assets/sass/_functions.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SassExample/assets/sass/_media-query-lg.scss" afterPath="$PROJECT_DIR$/SassExample/assets/sass/_media-query-lg.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SassExample/assets/sass/_media-query-md.scss" afterPath="$PROJECT_DIR$/SassExample/assets/sass/_media-query-md.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SassExample/assets/sass/_media-query-sm.scss" afterPath="$PROJECT_DIR$/SassExample/assets/sass/_media-query-sm.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SassExample/assets/sass/_media-query-xl.scss" afterPath="$PROJECT_DIR$/SassExample/assets/sass/_media-query-xl.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SassExample/assets/sass/_media-query-xs.scss" afterPath="$PROJECT_DIR$/SassExample/assets/sass/_media-query-xs.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SassExample/assets/sass/app.scss" afterPath="$PROJECT_DIR$/SassExample/assets/sass/app.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SassExample/dist/css/app.css" afterPath="$PROJECT_DIR$/SassExample/dist/css/app.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SassExample/dist/css/app.min.css" afterPath="$PROJECT_DIR$/SassExample/dist/css/app.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SassExample/index.html" afterPath="$PROJECT_DIR$/SassExample/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SassExample/dist/js/app.js" afterPath="$PROJECT_DIR$/SassExample/dist/js/app.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -50,18 +55,18 @@
       <file leaf-file-name="_default.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/SassExample/assets/sass/_default.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="594">
-              <caret line="75" column="8" lean-forward="true" selection-start-line="75" selection-start-column="8" selection-end-line="75" selection-end-column="8" />
+            <state relative-caret-position="854">
+              <caret line="126" column="0" lean-forward="true" selection-start-line="126" selection-start-column="0" selection-end-line="126" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_media-query-sm.scss" pinned="false" current-in-tab="true">
+      <file leaf-file-name="_media-query-sm.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/SassExample/assets/sass/_media-query-sm.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="19" column="5" lean-forward="true" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+            <state relative-caret-position="854">
+              <caret line="63" column="0" lean-forward="false" selection-start-line="63" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -70,8 +75,58 @@
       <file leaf-file-name="_media-query-xl.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/SassExample/assets/sass/_media-query-xl.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
+            <state relative-caret-position="22">
+              <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_media-query-xs.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SassExample/assets/sass/_media-query-xs.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="66">
+              <caret line="3" column="8" lean-forward="false" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="8" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_mixins.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SassExample/assets/sass/_mixins.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="2" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_variables.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SassExample/assets/sass/_variables.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-642">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SassExample/assets/sass/app.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="528">
+              <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/SassExample/assets/js/app.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="22">
+              <caret line="1" column="16" lean-forward="false" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -80,8 +135,8 @@
       <file leaf-file-name="_media-query-md.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/SassExample/assets/sass/_media-query-md.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="8" column="8" lean-forward="false" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
+            <state relative-caret-position="22">
+              <caret line="1" column="2" lean-forward="false" selection-start-line="1" selection-start-column="2" selection-end-line="1" selection-end-column="2" />
               <folding />
             </state>
           </provider>
@@ -90,8 +145,8 @@
       <file leaf-file-name="_functions.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/SassExample/assets/sass/_functions.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="220">
+              <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -100,8 +155,8 @@
       <file leaf-file-name="_media-query-lg.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/SassExample/assets/sass/_media-query-lg.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="88">
-              <caret line="4" column="8" lean-forward="true" selection-start-line="4" selection-start-column="8" selection-end-line="7" selection-end-column="5" />
+            <state relative-caret-position="792">
+              <caret line="36" column="0" lean-forward="true" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -118,10 +173,15 @@
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/SassExample/index.html" />
+        <option value="$PROJECT_DIR$/SassExample/assets/sass/_functions.scss" />
         <option value="$PROJECT_DIR$/SassExample/assets/sass/_default.scss" />
         <option value="$PROJECT_DIR$/SassExample/assets/sass/_media-query-lg.scss" />
         <option value="$PROJECT_DIR$/SassExample/assets/sass/_media-query-md.scss" />
         <option value="$PROJECT_DIR$/SassExample/assets/sass/_media-query-sm.scss" />
+        <option value="$PROJECT_DIR$/SassExample/assets/sass/_media-query-xl.scss" />
+        <option value="$PROJECT_DIR$/SassExample/assets/sass/_media-query-xs.scss" />
+        <option value="$PROJECT_DIR$/SassExample/assets/sass/app.scss" />
+        <option value="$PROJECT_DIR$/SassExample/assets/js/app.js" />
       </list>
     </option>
   </component>
@@ -291,6 +351,28 @@
               <option name="myItemId" value="assets" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SASS-Code-Example-Demo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SASS-Code-Example-Demo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SassExample" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
@@ -400,12 +482,12 @@
       <updated>1484728386745</updated>
       <workItem from="1484728388380" duration="1903000" />
       <workItem from="1484735481009" duration="364000" />
-      <workItem from="1484736022329" duration="934000" />
+      <workItem from="1484736022329" duration="1406000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3201000" />
+    <option name="totallyTimeSpent" value="3673000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="2578" height="1357" extended-state="6" />
@@ -485,48 +567,88 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/SassExample/assets/sass/_functions.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="220">
+          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/SassExample/assets/sass/_default.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="594">
-          <caret line="75" column="8" lean-forward="true" selection-start-line="75" selection-start-column="8" selection-end-line="75" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SassExample/assets/sass/_media-query-xl.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="854">
+          <caret line="126" column="0" lean-forward="true" selection-start-line="126" selection-start-column="0" selection-end-line="126" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/SassExample/assets/sass/_media-query-lg.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="8" lean-forward="true" selection-start-line="4" selection-start-column="8" selection-end-line="7" selection-end-column="5" />
+        <state relative-caret-position="792">
+          <caret line="36" column="0" lean-forward="true" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/SassExample/assets/sass/_media-query-md.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" column="8" lean-forward="false" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
+        <state relative-caret-position="22">
+          <caret line="1" column="2" lean-forward="false" selection-start-line="1" selection-start-column="2" selection-end-line="1" selection-end-column="2" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/SassExample/assets/sass/_media-query-sm.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="19" column="5" lean-forward="true" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+        <state relative-caret-position="854">
+          <caret line="63" column="0" lean-forward="false" selection-start-line="63" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SassExample/assets/sass/_media-query-xl.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SassExample/assets/sass/_media-query-xs.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" column="8" lean-forward="false" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SassExample/assets/sass/_mixins.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SassExample/assets/sass/_variables.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-642">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SassExample/assets/sass/app.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SassExample/assets/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="1" column="16" lean-forward="false" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
           <folding />
         </state>
       </provider>

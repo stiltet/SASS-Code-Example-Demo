@@ -1,36 +1,36 @@
 h1 {
-    font-size: 3.5em;
+  font-size: 3.5em;
 }
 
 header {
-    h1 {
-        padding-top: 70px;
-    }
-    nav {
-        font-size: 1.5em;
-    }
+  h1 {
+    padding-top: 70px;
+  }
+  nav {
+    font-size: 1.5em;
+  }
 }
 
 footer {
-    $socialMediaSize: $socialMediaSizeLarge;
-    padding-bottom: $socialMediaSize + 10px;
-    section {
-        &.socialMedia {
-            a {
-                height: $socialMediaSize;
-                width: $socialMediaSize;
-                &.twitter {
-                    background-size: $socialMediaSize $socialMediaSize;
-                }
-                &.linkedin {
-                    background-size: $socialMediaSize $socialMediaSize;
-                }
-            }
+  $socialMediaSize: $socialMediaSizeLarge;
+  padding-bottom: $socialMediaSize + 10px;
+  section {
+    &.socialMedia {
+      a {
+        height: $socialMediaSize;
+        width: $socialMediaSize;
+        &.twitter {
+            background-size: $socialMediaSize $socialMediaSize;
         }
-        &.copyright {
-            font-size: 12pt;
-            font-style: italic;
-            line-height: $socialMediaSize - 6px;
+        &.linkedin {
+            background-size: $socialMediaSize $socialMediaSize;
         }
+      }
     }
+    &.copyright {
+      font-size: 12pt;
+      font-style: italic;
+      line-height: $socialMediaSize - 6px;
+    }
+  }
 }

@@ -8,17 +8,17 @@
 //Starts with small screens and goes bigger
 @import "default";
 @media (min-width: $screen-xs) {
-    @import "media-query-xs";
+  @import "media-query-xs";
 }
 @media (min-width: $screen-sm) {
-    @import "media-query-sm";
+  @import "media-query-sm";
 }
 @media (min-width: $screen-md) {
-    @import "media-query-md";
+  @import "media-query-md";
 }
 @media (min-width: $screen-lg) {
-    @import "media-query-lg";
+  @import "media-query-lg";
 }
 @media (min-width: $screen-xl) {
-    @import "media-query-xl";
+  @import "media-query-xl";
 }
