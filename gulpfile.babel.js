@@ -14,7 +14,8 @@ const gulp = require('gulp'),
   connect = require('gulp-connect-multi')(),
   del = require('del');
 
-const rootDir = 'SASSExample',
+const rootDir = 'www/SASSExample',
+  liveReloadRootDir = 'www',
   stylesInput = rootDir + '/assets/sass/**/*.scss',
   stylesOutput = rootDir + '/dist/css',
   scriptsInput = rootDir + '/assets/js/**/*.js',
@@ -92,7 +93,7 @@ gulp.task('html', () => {
 });
 
 gulp.task('connect', connect.server({
-  root: [rootDir],
+  root: [liveReloadRootDir],
   host: 'localhost',
   port: 8080,
   open: {

@@ -2,16 +2,38 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f6178486-6cd9-4445-accc-2316f038d2c1" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SassExample/dist/css/app.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SassExample/dist/css/app.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SassExample/dist/img/linkedin_circle_black-64.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SassExample/dist/img/linkedin_circle_white-64.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SassExample/dist/img/sass.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SassExample/dist/img/twitter_circle_black-64.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SassExample/dist/img/twitter_circle_white-64.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SassExample/dist/js/app.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SassExample/dist/js/app.min.js" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/SassExample/assets/img/linkedin_circle_black-64.png" afterPath="$PROJECT_DIR$/www/SassExample/assets/img/linkedin_circle_black-64.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/SassExample/assets/img/linkedin_circle_white-64.png" afterPath="$PROJECT_DIR$/www/SassExample/assets/img/linkedin_circle_white-64.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/SassExample/assets/img/sass.png" afterPath="$PROJECT_DIR$/www/SassExample/assets/img/sass.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/SassExample/assets/img/twitter_circle_black-64.png" afterPath="$PROJECT_DIR$/www/SassExample/assets/img/twitter_circle_black-64.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/SassExample/assets/img/twitter_circle_white-64.png" afterPath="$PROJECT_DIR$/www/SassExample/assets/img/twitter_circle_white-64.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/SassExample/assets/js/app.js" afterPath="$PROJECT_DIR$/www/SassExample/assets/js/app.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/SassExample/assets/sass/_default.scss" afterPath="$PROJECT_DIR$/www/SassExample/assets/sass/_default.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/SassExample/assets/sass/_functions.scss" afterPath="$PROJECT_DIR$/www/SassExample/assets/sass/_functions.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/SassExample/assets/sass/_media-query-lg.scss" afterPath="$PROJECT_DIR$/www/SassExample/assets/sass/_media-query-lg.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/SassExample/assets/sass/_media-query-md.scss" afterPath="$PROJECT_DIR$/www/SassExample/assets/sass/_media-query-md.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/SassExample/assets/sass/_media-query-sm.scss" afterPath="$PROJECT_DIR$/www/SassExample/assets/sass/_media-query-sm.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/SassExample/assets/sass/_media-query-xl.scss" afterPath="$PROJECT_DIR$/www/SassExample/assets/sass/_media-query-xl.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/SassExample/assets/sass/_media-query-xs.scss" afterPath="$PROJECT_DIR$/www/SassExample/assets/sass/_media-query-xs.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/SassExample/assets/sass/_mixins.scss" afterPath="$PROJECT_DIR$/www/SassExample/assets/sass/_mixins.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/SassExample/assets/sass/_variables.scss" afterPath="$PROJECT_DIR$/www/SassExample/assets/sass/_variables.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/SassExample/assets/sass/app.scss" afterPath="$PROJECT_DIR$/www/SassExample/assets/sass/app.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/SassExample/dist/css/app.css" afterPath="$PROJECT_DIR$/www/SassExample/dist/css/app.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/SassExample/dist/css/app.min.css" afterPath="$PROJECT_DIR$/www/SassExample/dist/css/app.min.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/SassExample/dist/img/linkedin_circle_black-64.png" afterPath="$PROJECT_DIR$/www/SassExample/dist/img/linkedin_circle_black-64.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/SassExample/dist/img/linkedin_circle_white-64.png" afterPath="$PROJECT_DIR$/www/SassExample/dist/img/linkedin_circle_white-64.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/SassExample/dist/img/sass.png" afterPath="$PROJECT_DIR$/www/SassExample/dist/img/sass.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/SassExample/dist/img/twitter_circle_black-64.png" afterPath="$PROJECT_DIR$/www/SassExample/dist/img/twitter_circle_black-64.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/SassExample/dist/img/twitter_circle_white-64.png" afterPath="$PROJECT_DIR$/www/SassExample/dist/img/twitter_circle_white-64.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/SassExample/dist/js/app.js" afterPath="$PROJECT_DIR$/www/SassExample/dist/js/app.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/SassExample/dist/js/app.min.js" afterPath="$PROJECT_DIR$/www/SassExample/dist/js/app.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/SassExample/index.html" afterPath="$PROJECT_DIR$/www/SassExample/index.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/www/index.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/stylesheets/github-light.css" afterPath="$PROJECT_DIR$/www/stylesheets/github-light.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/stylesheets/normalize.css" afterPath="$PROJECT_DIR$/www/stylesheets/normalize.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/stylesheets/stylesheet.css" afterPath="$PROJECT_DIR$/www/stylesheets/stylesheet.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gulpfile.babel.js" afterPath="$PROJECT_DIR$/gulpfile.babel.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -40,11 +62,51 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="gulpfile.babel.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="gulpfile.babel.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/gulpfile.babel.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="17" column="23" lean-forward="false" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
+            <state relative-caret-position="474">
+              <caret line="99" column="21" lean-forward="false" selection-start-line="99" selection-start-column="21" selection-end-line="99" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/www/SassExample/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="572">
+              <caret line="26" column="159" lean-forward="false" selection-start-line="26" selection-start-column="159" selection-end-line="26" selection-end-column="159" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/www/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="15" column="40" lean-forward="false" selection-start-line="15" selection-start-column="40" selection-end-line="15" selection-end-column="40" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_functions.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/www/SassExample/assets/sass/_functions.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_default.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/www/SassExample/assets/sass/_default.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1602">
+              <caret line="101" column="21" lean-forward="true" selection-start-line="101" selection-start-column="21" selection-end-line="101" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -76,6 +138,9 @@
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/gulpfile.babel.js" />
+        <option value="$PROJECT_DIR$/www/index.html" />
+        <option value="$PROJECT_DIR$/www/SassExample/assets/sass/_default.scss" />
+        <option value="$PROJECT_DIR$/www/SassExample/index.html" />
       </list>
     </option>
   </component>
@@ -209,6 +274,24 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="www" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SASS-Code-Example-Demo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SASS-Code-Example-Demo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="www" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="SassExample" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -220,6 +303,36 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="SASS-Code-Example-Demo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="www" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SassExample" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sass" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SASS-Code-Example-Demo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SASS-Code-Example-Demo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="www" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -367,12 +480,12 @@
       <workItem from="1484728388380" duration="1903000" />
       <workItem from="1484735481009" duration="364000" />
       <workItem from="1484736022329" duration="3953000" />
-      <workItem from="1484745306651" duration="394000" />
+      <workItem from="1484745306651" duration="1490000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6881000" />
+    <option name="totallyTimeSpent" value="7977000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="2578" height="1357" extended-state="6" />
@@ -411,30 +524,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="8" lean-forward="false" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="17" column="32" lean-forward="false" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gulpfile.babel.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -762,8 +851,40 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/gulpfile.babel.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="17" column="23" lean-forward="false" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
+        <state relative-caret-position="474">
+          <caret line="99" column="21" lean-forward="false" selection-start-line="99" selection-start-column="21" selection-end-line="99" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="15" column="40" lean-forward="false" selection-start-line="15" selection-start-column="40" selection-end-line="15" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/SassExample/assets/sass/_functions.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/SassExample/assets/sass/_default.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1602">
+          <caret line="101" column="21" lean-forward="true" selection-start-line="101" selection-start-column="21" selection-end-line="101" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/SassExample/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="572">
+          <caret line="26" column="159" lean-forward="false" selection-start-line="26" selection-start-column="159" selection-end-line="26" selection-end-column="159" />
           <folding />
         </state>
       </provider>
