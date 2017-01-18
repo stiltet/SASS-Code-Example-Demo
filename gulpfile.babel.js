@@ -14,8 +14,8 @@ const gulp = require('gulp'),
   connect = require('gulp-connect-multi')(),
   del = require('del');
 
-const rootDir = 'www/SASSExample',
-  liveReloadRootDir = 'www',
+const rootDir = 'dist/SASSExample',
+  liveReloadRootDir = 'dist',
   stylesInput = rootDir + '/assets/sass/**/*.scss',
   stylesOutput = rootDir + '/dist/css',
   scriptsInput = rootDir + '/assets/js/**/*.js',
