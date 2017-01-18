@@ -3,6 +3,6 @@ module.exports = function(config) {
         frameworks: ['jasmine'],
         reporters: ['spec'],
         browsers: ['PhantomJS'],
-        files: ['www/assets/js/**/*.js']
+        files: ['SassExample/assets/js/**/*.js']
     });
 };
