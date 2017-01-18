@@ -1,0 +1,24 @@
+// Imports font-face
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+@import "variables";
+@import "functions";
+@import "mixins";
+
+//Starts with small screens and goes bigger
+@import "default";
+@media (min-width: $screen-xs) {
+  @import "media-query-xs";
+}
+@media (min-width: $screen-sm) {
+  @import "media-query-sm";
+}
+@media (min-width: $screen-md) {
+  @import "media-query-md";
+}
+@media (min-width: $screen-lg) {
+  @import "media-query-lg";
+}
+@media (min-width: $screen-xl) {
+  @import "media-query-xl";
+}
