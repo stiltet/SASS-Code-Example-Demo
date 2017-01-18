@@ -1,0 +1,28 @@
+@mixin color($type: text, $color: rgb(0, 0, 0), $alpha: 0) {
+  @if $type == bg {
+    background-color: getColor($color, $alpha);
+  } @else {
+    color: getColor($color, $alpha);
+  }
+}
+
+@mixin border($position: all, $size: 1px, $type: solid, $color: $borderColor, $alpha: 0) {
+  @if $position == all {
+    border: $size $type getColor($color, $alpha);
+  } @else if $position == top {
+    border-top: $size $type getColor($color, $alpha);
+  } @else if $position == right {
+    border-right: $size $type getColor($color, $alpha);
+  } @else if $position == bottom {
+    border-bottom: $size $type getColor($color, $alpha);
+  } @else if $position == left {
+    border-left: $size $type getColor($color, $alpha);
+  }
+}
+
+@mixin opacity($opacity) {
+    @if $opacity > 1 {
+        $opacity: $opacity / 100;
+    }
+    opacity: $opacity;
+}

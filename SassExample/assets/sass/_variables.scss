@@ -1,0 +1,68 @@
+//******************************************************************//
+//************************** DEFAULT *******************************//
+//******************************************************************//
+
+$appVersion: "1.0.0";
+
+//******************************************************************//
+//*************************** COLORS *******************************//
+//******************************************************************//
+
+$defaultTextColor: black;
+$defaultLinkColor: $defaultTextColor;
+$defaultLinkHoverColor: #cc6699;
+
+$backgroundPrimaryColor: #cc6699;
+$backgroundSecondaryColor: white;
+$backgroundColorContainer: transparent;
+
+$borderColor: black;
+
+//******************************************************************//
+//**************************** FONT ********************************//
+//******************************************************************//
+
+$defaultFont: "Helvetica World", "Helvetica", "Garamond", "Segoe UI", sans-serif;
+$defaultHeaderFont: "Helvetica World", "Helvetica", "Garamond", "Segoe UI", sans-serif;;
+
+//******************************************************************//
+//******************** MEDIA QUERY BREAKPOINTS *********************//
+//********************* (SAME AS BOOTSTRAP 3) **********************//
+//******************************************************************//
+
+// Extra small screen / phone
+$screen-xs: 480px;
+$screen-phone: $screen-xs;
+
+// Small screen / tablet
+$screen-sm: 768px;
+$screen-tablet: $screen-sm;
+
+// Medium screen / tablet or small desktop
+$screen-md: 992px;
+$screen-desktop: $screen-md;
+
+// Large screen / wide desktop
+$screen-lg: 1200px;
+$screen-lg-desktop: $screen-lg;
+
+// Extra large screen / extra wide desktop
+$screen-xl: 1550px;
+$screen-xl-desktop: $screen-xl;
+
+//******************************************************************//
+//**************************** SIZES *******************************//
+//******************************************************************//
+
+$socialMediaSizeDefault: 20px;
+$socialMediaSizeSmall: 30px;
+$socialMediaSizeLarge: 46px;
+
+//******************************************************************//
+//************************** LOCATIONS *****************************//
+//******************************************************************//
+
+$twitterImageLocation: "../img/twitter_circle_black-64.png";
+$twitterImageHoverLocation: "../img/twitter_circle_white-64.png";
+$linkedinImageLocation: "../img/linkedin_circle_black-64.png";
+$linkedinImageHoverLocation: "../img/linkedin_circle_white-64.png";
