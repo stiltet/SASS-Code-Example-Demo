@@ -1,0 +1,3 @@
+window.addEventListener('onload') = (function () {
+
+});
