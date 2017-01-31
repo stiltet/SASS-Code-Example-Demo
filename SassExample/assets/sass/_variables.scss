@@ -2,28 +2,28 @@
 //************************** DEFAULT *******************************//
 //******************************************************************//
 
-$appVersion: "1.0.0";
+$app-version: "1.0.0";
 
 //******************************************************************//
 //*************************** COLORS *******************************//
 //******************************************************************//
 
-$defaultTextColor: black;
-$defaultLinkColor: $defaultTextColor;
-$defaultLinkHoverColor: #cc6699;
+$default-text-color: black;
+$default-link-color: $default-text-color;
+$default-link-hover-color: #cc6699;
 
-$backgroundPrimaryColor: #cc6699;
-$backgroundSecondaryColor: white;
-$backgroundColorContainer: transparent;
+$background-color-primary: #cc6699;
+$background-color-secondary: white;
+$background-color-container: transparent;
 
-$borderColor: black;
+$default-border-color: black;
 
 //******************************************************************//
 //**************************** FONT ********************************//
 //******************************************************************//
 
-$defaultFont: "Helvetica World", "Helvetica", "Garamond", "Segoe UI", sans-serif;
-$defaultHeaderFont: "Helvetica World", "Helvetica", "Garamond", "Segoe UI", sans-serif;;
+$default-font-family: "Helvetica World", "Helvetica", "Garamond", "Segoe UI", sans-serif;
+$default-headers-font-family: $default-font-family;
 
 //******************************************************************//
 //******************** MEDIA QUERY BREAKPOINTS *********************//
@@ -54,9 +54,9 @@ $screen-xl-desktop: $screen-xl;
 //**************************** SIZES *******************************//
 //******************************************************************//
 
-$socialMediaSizeDefault: 20px;
-$socialMediaSizeSmall: 30px;
-$socialMediaSizeLarge: 46px;
+$social-media-size-default: 20px;
+$social-media-size-small: 30px;
+$social-media-size-large: 46px;
 
 //******************************************************************//
 //************************** LOCATIONS *****************************//

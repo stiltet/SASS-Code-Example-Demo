@@ -12,25 +12,25 @@ header {
 }
 
 footer {
-  $socialMediaSize: $socialMediaSizeLarge;
-  padding-bottom: $socialMediaSize + 10px;
+  $social-media-size: $social-media-size-large;
+  padding-bottom: $social-media-size + 10px;
   section {
     &.socialMedia {
       a {
-        height: $socialMediaSize;
-        width: $socialMediaSize;
+        height: $social-media-size;
+        width: $social-media-size;
         &.twitter {
-            background-size: $socialMediaSize $socialMediaSize;
+            background-size: $social-media-size $social-media-size;
         }
         &.linkedin {
-            background-size: $socialMediaSize $socialMediaSize;
+            background-size: $social-media-size $social-media-size;
         }
       }
     }
     &.copyright {
       font-size: 12pt;
       font-style: italic;
-      line-height: $socialMediaSize - 6px;
+      line-height: $social-media-size - 6px;
     }
   }
 }

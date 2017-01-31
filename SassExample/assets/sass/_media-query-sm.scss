@@ -40,24 +40,24 @@ header {
 }
 
 footer {
-  $socialMediaSize: $socialMediaSizeSmall;
-  padding-bottom: $socialMediaSize + 10px;
+  $social-media-size: $social-media-size-small;
+  padding-bottom: $social-media-size + 10px;
   section {
     &.socialMedia {
       a {
-        height: $socialMediaSize;
-        width: $socialMediaSize;
+        height: $social-media-size;
+        width: $social-media-size;
         &.twitter {
-          background-size: $socialMediaSize $socialMediaSize;
+          background-size: $social-media-size $social-media-size;
         }
         &.linkedin {
-          background-size: $socialMediaSize $socialMediaSize;
+          background-size: $social-media-size $social-media-size;
         }
       }
     }
     &.copyright {
       font-size: 11pt;
-      line-height: $socialMediaSize;
+      line-height: $social-media-size;
     }
   }
 }
