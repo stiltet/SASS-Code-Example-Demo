@@ -1,3 +1,5 @@
+'use strict';
+
 const gulp = require('gulp'),
   sass = require('gulp-sass'),
   autoprefixer = require('gulp-autoprefixer'),
@@ -16,13 +18,14 @@ const gulp = require('gulp'),
 
 const rootDir = 'dist/SASSExample',
   liveReloadRootDir = 'dist',
+  distributionDir = rootDir + '/dist',
   stylesInput = rootDir + '/assets/sass/**/*.scss',
-  stylesOutput = rootDir + '/dist/css',
+  stylesOutput = distributionDir + '/css',
   scriptsInput = rootDir + '/assets/js/**/*.js',
-  scriptsOutput = rootDir + '/dist/js',
+  scriptsOutput = distributionDir + '/js',
   scriptTestsInput = rootDir + '/assets/js/**/*_spec.js',
   imageInput = rootDir + '/assets/img/*',
-  imageOutput = rootDir + '/dist/img',
+  imageOutput = distributionDir + '/img',
   htmlLocation = rootDir + '/**/*.html',
   autoprefixerOptions = {
     browsers: ['last 2 versions', '> 5%', 'Firefox ESR']
@@ -35,7 +38,11 @@ const rootDir = 'dist/SASSExample',
     progressive: true
   };
 
-gulp.task('styles', ['clean-styles'], () => {
+gulp.task('styles', ['clean'], () => {
+  return gulp.run('styles-watch');
+});
+
+gulp.task('styles-watch', ['clean-styles'], () => {
   return gulp.src(stylesInput)
     .pipe(sourcemaps.init())
     .pipe(sass(sassOptions).on('error', sass.logError))
@@ -47,12 +54,17 @@ gulp.task('styles', ['clean-styles'], () => {
     .pipe(sourcemaps.write())
     .pipe(gulp.dest(stylesOutput))
     .pipe(connect.reload())
-    .pipe(notify({
-      message: 'Styles task complete!'
-    }));
+    // .pipe(notify({
+    //   message: 'Styles task complete!'
+    // }))
+    ;
 });
 
-gulp.task('scripts', ['clean-scripts'], () => {
+gulp.task('scripts', ['clean'], () => {
+  return gulp.run('scripts-watch');
+});
+
+gulp.task('scripts-watch', ['clean-scripts'], () => {
   return gulp.src(['!' + scriptTestsInput, scriptsInput.replace("/*.js", "/!(Controller)*.js"), scriptsInput.replace("/*.js", "/Controller.js"),])
     .pipe(babel({
       presets: ['es2015']
@@ -66,12 +78,13 @@ gulp.task('scripts', ['clean-scripts'], () => {
     .pipe(sourcemaps.write())
     .pipe(gulp.dest(scriptsOutput))
     .pipe(connect.reload())
-    .pipe(notify({
-        message: 'Scripts task complete!'
-    }));
+    // .pipe(notify({
+    //   message: 'Scripts task complete!'
+    // }))
+    ;
 });
 
-gulp.task('images', ['clean-images'], () => {
+gulp.task('images', ['clean-images', 'clean'], () => {
   return gulp.src(imageInput)
     .pipe(imagemin(imageminOptions))
     .pipe(gulp.dest(imageOutput))
@@ -87,12 +100,13 @@ gulp.task('tests', (done) => {
 gulp.task('html', () => {
   return gulp.src(htmlLocation)
     .pipe(connect.reload())
-    .pipe(notify({
-      message: 'HTML task complete'
-    }));
+    // .pipe(notify({
+    //   message: 'HTML task complete'
+    // }))
+    ;
 });
 
-gulp.task('connect', connect.server({
+gulp.task('connect', ['styles', 'scripts', 'images'], connect.server({
   root: [liveReloadRootDir],
   host: 'localhost',
   port: 8080,
@@ -104,7 +118,8 @@ gulp.task('connect', connect.server({
 }));
 
 gulp.task('clean', () => {
-  return del([stylesOutput, scriptsOutput, imageOutput]);
+  return del([distributionDir]);
+  //return del([stylesOutput, scriptsOutput, imageOutput]);
 });
 
 gulp.task('clean-styles', () => {
@@ -119,12 +134,12 @@ gulp.task('clean-images', () => {
   //return del([imageOutput]);
 });
 
-gulp.task('watch', () => {
-  gulp.watch(stylesInput, ['styles']);
-  gulp.watch(scriptsInput, ['scripts']);
+gulp.task('watch', ['connect'], () => {
+  gulp.watch(stylesInput, ['styles-watch']);
+  gulp.watch(scriptsInput, ['scripts-watch']);
   gulp.watch(htmlLocation, ['html']);
 });
 
-gulp.task('default', ['clean', 'styles', 'scripts', 'images', 'tests', 'html', 'connect', 'watch']);
+gulp.task('default', ['styles', 'scripts', 'images', 'tests', 'html', 'connect', 'watch']);
 
 gulp.task('build', ['default']);

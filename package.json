@@ -1,33 +1,33 @@
 {
   "name": "SASS-Code-Example-DEMO",
   "version": "1.0.0",
-  "description": "Just another project...",
+  "description": "Demo project for my presentation of SASS and LESS.",
   "author": "Stellan Lindell",
   "dependencies": {
+    "babel-core": "^6.21.0",
+    "babel-preset-es2015": "^6.18.0",
     "del": "^2.2.2",
     "gulp": "^3.9.1",
     "gulp-autoprefixer": "^3.1.1",
+    "gulp-babel": "^6.1.2",
     "gulp-concat": "^2.6.0",
     "gulp-connect-multi": "^1.0.8",
     "gulp-cssnano": "^2.1.2",
     "gulp-ignore": "^2.0.1",
+    "gulp-imagemin": "^3.1.0",
     "gulp-jasmine": "^2.4.2",
     "gulp-notify": "^2.2.0",
     "gulp-rename": "^1.2.2",
     "gulp-sass": "^2.3.2",
-    "gulp-sourcemaps": "^2.1.1",
     "gulp-uglify": "^2.0.0",
     "gulp-util": "^3.0.7",
-    "jshint": "^2.9.3"
-  },
-  "devDependencies": {
-    "babel-core": "^6.21.0",
-    "babel-preset-es2015": "^6.18.0",
-    "gulp-babel": "^6.1.2",
-    "gulp-imagemin": "^3.1.0",
+    "jshint": "^2.9.3",
     "karma": "^1.3.0",
     "karma-jasmine": "^1.0.2",
     "karma-phantomjs-launcher": "^1.0.2",
     "karma-spec-reporter": "0.0.26"
+  },
+  "devDependencies": {
+    "gulp-sourcemaps": "^2.1.1",
   }
 }

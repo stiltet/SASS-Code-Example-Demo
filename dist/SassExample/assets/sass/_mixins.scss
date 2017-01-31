@@ -6,7 +6,7 @@
   }
 }
 
-@mixin border($position: all, $size: 1px, $type: solid, $color: $borderColor, $alpha: 0) {
+@mixin border($position: all, $size: 1px, $type: solid, $color: $default-border-color, $alpha: 0) {
   @if $position == all {
     border: $size $type getColor($color, $alpha);
   } @else if $position == top {
