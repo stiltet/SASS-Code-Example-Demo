@@ -1,5 +1,5 @@
 @echo off
-git subtree split --branch gh-pages --prefix dist/
+git subtree push --prefix dist origin gh-pages
 pause
 cls
 exit
