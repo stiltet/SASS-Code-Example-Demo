@@ -9,10 +9,12 @@ body {
 h1, h2, h3, h4, h5, h6 {
   font-family: $default-headers-font-family;
 }
+
 h1 {
   font-size: 2.5em;
   letter-spacing: 3.5px;
 }
+
 h2 {
   font-size: 1.5em;
 }
@@ -28,12 +30,12 @@ a {
 
 #container {
   width: 90%;
-  @include color($type: bg, $color:$background-color-container, $alpha: 50);
+  @include color($type: bg, $color: $background-color-container, $alpha: 50);
   margin: 0 auto;
 }
 
 header {
-  min-height:180px;
+  min-height: 180px;
   margin: 0;
   @include border($position: bottom, $size: 3px, $type: groove, $color: $default-border-color);
   padding-bottom: 10px;
@@ -42,87 +44,89 @@ header {
     text-align: center;
     margin: 0 auto;
   }
-    h1 {
-        text-align: left;
-        padding-left: 15px;
-        margin: 0 0 15px;
-    }
-    img.sassLogo {
-        //height: 150px;
-        //padding: 15px;
-        width: 320px;
-        padding-top: 15px;
-        margin: auto 0;
-    }
-    nav {
-        margin-bottom: 10px;
-        ul {
-            padding: 0 15px;
-            margin: 0;
-            list-style: none;
-            li {
-                display: inline-block;
-                &:not(:first-of-type) {
-                    margin-left: 89px;
-                }
-            }
+  h1 {
+    text-align: left;
+    padding-left: 15px;
+    margin: 0 0 15px;
+  }
+  img.sassLogo {
+    //height: 150px;
+    //padding: 15px;
+    width: 320px;
+    padding-top: 15px;
+    margin: auto 0;
+  }
+  nav {
+    margin-bottom: 10px;
+    ul {
+      padding: 0 15px;
+      margin: 0;
+      list-style: none;
+      li {
+        display: inline-block;
+        &:not(:first-of-type) {
+          margin-left: 9px;
         }
+      }
     }
+  }
 }
+
 main {
-    line-height: 1.5em;
-    @include opacity(80);
-    border-bottom: 3px groove black;
-    padding: 10px 15px;
-    h2 {
-        margin-top: 0;
-    }
-    p:first-of-type {
-        margin-top: 0;
-    }
-    p:last-of-type {
-        margin-top: 0;
-        margin-bottom: 5px;
-    }
+  line-height: 1.5em;
+  @include opacity(80);
+  border-bottom: 3px groove black;
+  padding: 10px 15px;
+  h2 {
+    margin-top: 0;
+  }
+  p:first-of-type {
+    margin-top: 0;
+  }
+  p:last-of-type {
+    margin-top: 0;
+    margin-bottom: 5px;
+  }
 }
+
 footer {
-    $social-media-size: $social-media-size-default;
-    padding: 15px 15px $social-media-size + 10px 15px;
-    section {
-        &.socialMedia {
-            float: left;
-            a {
-                height: $social-media-size;
-                width: $social-media-size;
-                display: inline-block;
-                padding: 0;
-                &.twitter {
-                    background-image: url($twitterImageLocation);
-                    background-size: $social-media-size $social-media-size;
-                    &:hover, .preload {
-                        background-image: url($twitterImageHoverLocation);
-                    }
-                }
-                &.linkedin {
-                    background-image: url($linkedinImageLocation);
-                    background-size: $social-media-size $social-media-size;
-                    &:hover, .preload {
-                        background-image: url($linkedinImageHoverLocation);
-                    }
-                }
-            }
+  $social-media-size: $social-media-size-default;
+  padding: 15px 15px $social-media-size + 10px 15px;
+  section {
+    &.socialMedia {
+      float: left;
+      a {
+        height: $social-media-size;
+        width: $social-media-size;
+        display: inline-block;
+        padding: 0;
+        &.twitter {
+          background-image: url($twitterImageLocation);
+          background-size: $social-media-size $social-media-size;
+          &:hover, .preload {
+            background-image: url($twitterImageHoverLocation);
+          }
         }
-        &.copyright {
-            font-size: 9pt;
-            float: right;
-            line-height: $social-media-size;
-            a:hover {
-                color: $background-color-secondary;
-            } 
+        &.linkedin {
+          background-image: url($linkedinImageLocation);
+          background-size: $social-media-size $social-media-size;
+          &:hover, .preload {
+            background-image: url($linkedinImageHoverLocation);
+          }
         }
+      }
     }
+    &.copyright {
+      font-size: 9pt;
+      float: right;
+      line-height: $social-media-size;
+      a:hover {
+        color: $background-color-secondary;
+      }
+    }
+  }
 }
 
 .preload, .hide {
-    display: none;
+  display: none;
 }
