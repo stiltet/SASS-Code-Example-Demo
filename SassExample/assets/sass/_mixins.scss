@@ -21,8 +21,8 @@
 }
 
 @mixin opacity($opacity) {
-    @if $opacity > 1 {
-        $opacity: $opacity / 100;
-    }
-    opacity: $opacity;
+  @if $opacity > 1 {
+    $opacity: $opacity / 100;
+  }
+  opacity: $opacity;
 }

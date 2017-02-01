@@ -4,7 +4,7 @@ h1 {
 
 header {
   h1 {
-    padding-top: 70px;
+    padding-top: 80px;
   }
   nav {
     font-size: 1.5em;
@@ -20,10 +20,10 @@ footer {
         height: $social-media-size;
         width: $social-media-size;
         &.twitter {
-            background-size: $social-media-size $social-media-size;
+          background-size: $social-media-size $social-media-size;
         }
         &.linkedin {
-            background-size: $social-media-size $social-media-size;
+          background-size: $social-media-size $social-media-size;
         }
       }
     }
