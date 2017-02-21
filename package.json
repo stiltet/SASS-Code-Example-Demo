@@ -28,6 +28,6 @@
     "karma-spec-reporter": "0.0.26"
   },
   "devDependencies": {
-    "gulp-sourcemaps": "^2.1.1",
+    "gulp-sourcemaps": "^2.1.1"
   }
 }
